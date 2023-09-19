@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Baloo+Thambi+2&family=Croissant+One&family=Mooli&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: gray;
+}
+
+.pimg1 {
+    background-image: url(1.jpg);
+    min-height: 100%;
+
+}
+
+.pimg2 {
+    background-image: url(2.jpg);
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url(3.jpg);
+    min-height: 400px;
+}
+
+.pimg4 {
+    background-image: url(5.jpg);
+    min-height: 100%;
+}
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: 3px solid black;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textbg {
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    opacity: 60%;
+    font-family: 'Croissant One', cursive;
+}
+
+.section {
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light,
+.section-dark,
+.section-last {
+    background-image: url(1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    font-weight: 900;
+    font-size: 20px;
+    border: 3px solid black;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    letter-spacing: 1px;
+}
+
+.section-dark {
+    background-image: url(2.jpg);
+}
+
+.section-last {
+    background-image: url(3.jpg);
+}
+
+.section-light:hover {
+    opacity: .95;
+    cursor: pointer;
+    transition: 0.5s;
+    color: coral;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.section-dark:hover {
+    opacity: .95;
+    cursor: pointer;
+    transition: 0.5s;
+    color: coral;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.section-last:hover {
+    opacity: .95;
+    cursor: pointer;
+    transition: 0.5s;
+    color: coral;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+.web {
+    font-family: 'Croissant One', cursive;
+    font-size: 35px;
+
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
